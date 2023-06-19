@@ -6,7 +6,7 @@ import Thumbnail from "./Thumbail"
 
 export default function Articles() {
     return (
-        <section className="lg:grid grid-cols-3 lg:my-16">
+        <section className="lg:grid grid-cols-3 my-16 lg:gap-8">
 
             <Thumbnail
                 img={RetroPC}

@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <nav className='flex justify-between pt-7 pb-8 sm:px-4 lg:px-40  place-content place-self-center'>
             <Image src={Logo} alt='Web3 logo' />
-            <ul className='hidden md:flex space-x-10'>
+            <ul className='hidden md:flex space-x-10 self-center'>
                 <li className="hover:text-orange-500 cursor-pointer">
 
                     Home
