@@ -6,7 +6,7 @@ import Thumbnail from "./Thumbail"
 
 export default function Articles() {
     return (
-        <section className="grid grid-cols-3 my-16">
+        <section className="lg:grid grid-cols-3 lg:my-16">
 
             <Thumbnail
                 img={RetroPC}
@@ -17,7 +17,7 @@ export default function Articles() {
             <Thumbnail
                 img={Laptops}
                 number={'02'}
-                title={'RTop 10 Laptops of 2022'}
+                title={'Top 10 Laptops of 2022'}
                 text={'Our best picks for various needs and budgets.'}
             />
             <Thumbnail
