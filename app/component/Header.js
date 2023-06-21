@@ -12,7 +12,7 @@ export default function Header() {
                 <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
                     But is it really fulfilling its promise?
                 </p>
-                <button className="bg-orange py-2 px-6 mt-6 text-white uppercase text- font-bold tracking-widest">Read more</button>
+                <button className="bg-orange py-2 px-6 mt-6 text-white uppercase text- font-bold tracking-widest hover:bg-very-dark-blue">Read more</button>
             </div>
             <div className={`px-5 py-4  lg:my-0 bg-very-dark-blue col-start-3 row-start-1 row-span-2`}>
                 <News />
